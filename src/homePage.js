@@ -15,7 +15,15 @@ const renderHomePage = (() => {
         </div>
         <div class="info">
             <div class="address">
-
+                <span><i class="fi-xnsuxl-map-marker-solid"></i></span>
+                <p>Carrefour Titus Edzoa, apres Carrefour Petites Genies<br />Simbock, Yaounde Cameroon</p>
+                <p>Tel: +237 677 495 016 or +237 696 905 999</p>
+            </div>
+            <div class="hours">
+                <span><i class="fi-cnsuhl-clock-solid"></i></span>
+                <p>
+                    <span>Monday-Friday:</span>11am-7pm<br /><span>Saturday & Sunday:</span>9am-11pm
+                </p>
             </div>
         </div>
     </div>`;
