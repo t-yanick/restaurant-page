@@ -1,4 +1,5 @@
 import { pageLoad } from "./pageLoad";
+import { renderHomePage } from "./homePage";
 
 const tabs = document.querySelectorAll("[data-tab-target]");
 const tabContents = document.querySelectorAll("[data-tab-content]");
