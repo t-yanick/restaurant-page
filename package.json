@@ -4,7 +4,9 @@
   "description": "> In this project we practice DOM manipulation by dynamically rendering a simple restaurant homepage. DOM elements were created with JavaScript but styling was done with CSS. You can find the entire project description [here.](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page) <br>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix --ext .js,.jsx ."
   },
   "repository": {
     "type": "git",
