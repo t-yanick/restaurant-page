@@ -3,7 +3,8 @@
 > In this project we practice DOM manipulation by dynamically rendering a simple restaurant homepage. DOM elements were created with JavaScript but styling was done with CSS. You can find the entire project description [here.](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page) <br>
 
 
-![](https://raw.githubusercontent.com/chubaquelo/Project-Library-Collaborative/features/screenshots/books-2.JPG)
+## Screenshot
+![screenshot1](images/screenshot.png)
 
 ## Built With
 
@@ -13,7 +14,7 @@
 - Webpack
 
 ## Live Demo
-[Live Demo](https://chubaquelo.github.io/Project-Library-Collaborative/)
+[Live Demo]()
 
 ## Getting Started
 
@@ -23,7 +24,7 @@ To get a local copy up and running follow these simple example steps.
 
 Clone this repository in your computer
 ```
-$  git clone https://github.com/chubaquelo/BooksLibrary-JS-Practice
+$  git clone https://github.com/t-yanick/restaurant-page.git
 ```
 Access the folder where you cloned the project in your explorer and open index.html
 
