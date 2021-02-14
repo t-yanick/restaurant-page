@@ -1,6 +1,7 @@
 import { pageLoad } from "./pageLoad";
 import { renderHomePage } from "./homePage";
-import { renderMenuPage } from "./menuPage"
+import { renderMenuPage } from "./menuPage";
+import { renderContactPage } from "./contactPage"
 
 const tabs = document.querySelectorAll("[data-tab-target]");
 const tabContents = document.querySelectorAll("[data-tab-content]");
@@ -31,4 +32,4 @@ document.querySelector(".order-now").addEventListener("click", () => {
 
 document.querySelector(`[type="submit"]`).addEventListener("click", () => {
 	document.querySelector("form").reset();
-})
+});
