@@ -12,12 +12,12 @@ const pageLoad = (() => {
 			</a>
 			<ul class="links">
 				<li data-tab-target="#home" class="tab red">Home</li>
-				<li data-tab-target="#home" class="tab">Menu</li>
-				<li data-tab-target="#home" class="tab">Contact Us</li>
+				<li data-tab-target="#menu" class="tab">Menu</li>
+				<li data-tab-target="#contact" class="tab">Contact Us</li>
 			</ul>
 		</nav>`;
 
-	contentContainer.appendChild(header)
+	contentContainer.appendChild(header);
 })();
 
 export { pageLoad };
