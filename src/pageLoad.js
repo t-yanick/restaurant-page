@@ -1,8 +1,8 @@
 const pageLoad = (() => {
-	const contentContainer = document.querySelector("#content");
+  const contentContainer = document.querySelector('#content');
 
-	const header = document.createElement("header");
-	header.innerHTML = `
+  const header = document.createElement('header');
+  header.innerHTML = `
 		<nav>
 			<h2>Fedel's Bar and Restaurant</h2>
 			<a href="#" class="eru">
@@ -17,7 +17,7 @@ const pageLoad = (() => {
 			</ul>
 		</nav>`;
 
-	contentContainer.appendChild(header);
+  contentContainer.appendChild(header);
 })();
 
 export { pageLoad };

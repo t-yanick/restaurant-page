@@ -1,10 +1,9 @@
 const renderContactPage = (() => {
-
-	const contentContainer = document.querySelector("#content");
-	const contact = document.createElement("div");
-	contact.setAttribute("id", "contact");
-	contact.setAttribute("data-tab-content", "");
-	contact.innerHTML = `
+  const contentContainer = document.querySelector('#content');
+  const contact = document.createElement('div');
+  contact.setAttribute('id', 'contact');
+  contact.setAttribute('data-tab-content', '');
+  contact.innerHTML = `
 		<div class="hero">
 			<h1>Contact Us</h1>
 		</div>
@@ -57,8 +56,7 @@ const renderContactPage = (() => {
 		</div>
 	`;
 
-	contentContainer.appendChild(contact);
-
+  contentContainer.appendChild(contact);
 })();
 
-export { renderContactPage }
+export { renderContactPage };

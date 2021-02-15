@@ -1,10 +1,9 @@
 const renderHomePage = (() => {
+  const contentContainer = document.querySelector('#content');
 
-    const contentContainer = document.querySelector("#content");
-
-    const home = document.createElement("div");
-    home.classList.add("tab-content")
-    home.innerHTML = `
+  const home = document.createElement('div');
+  home.classList.add('tab-content');
+  home.innerHTML = `
     <div id="home" class="active" data-tab-content>
         <div class="hero">
             <h1>Visit Fedel's Restaurant for 100% Delicious Traditional Cuisines</h1>
@@ -28,7 +27,7 @@ const renderHomePage = (() => {
         </div>
     </div>`;
 
-    contentContainer.appendChild(home);
+  contentContainer.appendChild(home);
 })();
 
 export { renderHomePage };
